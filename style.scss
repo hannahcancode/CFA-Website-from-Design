@@ -1,0 +1,327 @@
+$bg-purple: #190728;
+$white: #FFFFFF;
+$purplegradstart: #9E1A81;
+$purplegradend: #DC1263;
+
+html {
+  height:100%
+}
+
+body {
+  background-color: $bg-purple;
+  color:$white;
+  height:100%;
+  font-family: Lato;
+  font-style: 100;
+}
+
+.superapproachable h1 {
+  padding-top: 30px;
+}
+/*button {
+  margin: 20px
+}*/
+.btn {
+  font-size: 10px;
+  border-radius: 20px;
+  padding: 10px
+}
+
+.row {
+  padding-bottom: 50px;
+}
+/*gradient background and white text*/
+.btn-primary, .btn-primary:hover {
+  color: $white;
+  border: none;
+  box-shadow: none;
+  text-shadow: none;
+  background: linear-gradient(to right, $purplegradstart , $purplegradend); /* Standard syntax */
+}
+
+/*transparent background and white text and border*/
+.btn-default, .btn-default:hover {
+  color: white;
+  border-color: white;
+  box-shadow: none;
+  text-shadow: none;
+  background: rgba(255,0,255, 0);
+}
+
+/*transparent background purpletextandborder*/
+.btn-success, .btn-success:hover {
+  color: #AD3B95;
+  border-color: #AD3B95;
+  box-shadow: none;
+  text-shadow: none;
+  background: rgba(255,0,255, 0);
+}
+
+.sayhello {
+  padding-top: 2%
+}
+
+.landing {
+  min-height: 100%;
+  /*background-size: cover;
+  background-position: absolute;
+  background-repeat: no-repeat;*/
+  /*background: url("blue-planet.svg");*/
+  /*background-color: rgba(155, 247, 21, 0.4)*/
+}
+
+.planet {
+  z-index: -2;
+  /*height:100%;*/
+  position: absolute;
+  bottom: 0px;
+}
+
+.sayhello {
+  z-index: 1
+}
+.bluetransparent {
+  min-height: 120%;
+  width: 100%;
+  position: absolute;
+  bottom: -25%;
+  left: 0px;
+  z-index: -1;
+  background: radial-gradient(rgba(220, 18, 99, 0.6) 10%, rgba(25, 7, 40, 1) 50%, rgba(25, 7, 40, 1) 40%); /* Standard syntax */
+  /*background-color: rgba(220, 18, 99, 0.4);*/
+}
+
+.navbar {
+  background-color: #190728;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 0px
+}
+
+.navtext {
+  padding: 10px;
+  font-family: Lato;
+  font-style: 100;
+}
+
+.navbartext {
+  margin-top: 20px;
+}
+
+.glyphicon {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.moon {
+  position: absolute;
+  bottom: -20px;
+  left: 0px;
+  width: 100%
+}
+
+.container {
+  width: 70%;
+  /*z-index: 0*/
+}
+
+.threequicksteps {
+  padding-bottom: 210px;
+  /*height:100%;*/
+  z-index: 0;
+  background-color:#190728;
+}
+
+.superapproachable {
+  padding: 40px 0px;
+  color: #938F97;
+  position:relative;
+  top: -180px;
+  margin-top:0px;
+  background-color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+  box-shadow: 0 0 10px grey;
+  /*z-index: 1*/
+}
+
+.superapproachablerow {
+  padding-bottom: 0;
+}
+
+
+.developersdream {
+  position: relative;
+  top: -140px
+}
+.superapproachable p, .developersdream p{
+  color: #938F97;
+  font-size: 16px;
+}
+
+.purpleheading {
+  color: #9C007D;
+}
+
+.greybackground {
+  width: 100%;
+  margin-top: 0px;
+  background-color: #F6F4F7;
+  margin-bottom: -130px
+  /*z-index: -1*/
+}
+
+.features {
+  background-color: white;
+  color: black;
+  padding: 40px;
+}
+
+
+
+hr {
+  border-width: 3px
+}
+
+p {
+  padding: 20px;
+  color: #7D7593;
+}
+
+.communitydriven p {
+  color: white
+}
+
+.communitydriven small {
+  color: white;
+  padding-top:0px
+}
+
+small {
+  color: #7D7593;
+}
+
+h2 {
+  padding-top: 50px;
+  padding-bottom: 50px
+}
+.communityicons {
+  width: 30%
+}
+.builtongrav {
+  padding: 40px
+}
+.communitydriven {
+  color: white;
+  padding: 40px;
+  background: -webkit-linear-gradient(left, #9E1A81 , #DC1263); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #9E1A81 , #DC1263); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #9E1A81 , #DC1263); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #9E1A81 , #DC1263); /* Standard syntax */
+}
+
+.cms {
+  color: white;
+  font-size: 12pt
+}
+
+.versiontext {
+  padding: 20px;
+  color:#8C4D82;
+  font-size:8pt
+}
+
+.greyhr {
+  border-color: #F6F4F7;
+  width: 100%
+}
+
+.bluehr {
+  border-color:#1FAEE5
+}
+
+.pinkhr {
+  border-color:#CE1179
+}
+
+.purplehr {
+  border-color:#741391
+}
+
+.gradienthr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(to right, #9E1A81 , #DC1263); /* Standard syntax */
+}
+.gradienthrnopad {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(to right, #9E1A81 , #DC1263); /* Standard syntax */
+}
+
+.purplegradienthr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 4px;
+  margin-left:4px;
+  width: 100%;
+  border: none;
+  background: linear-gradient(to right, #5B0E83 , #7A138B); /* Standard syntax */
+}
+
+.bluegradienthr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left:4px;
+  height: 4px;
+  width: 100%;
+  border: none;
+  background: linear-gradient(to right, #1688B2 , #28B6BC); /* Standard syntax */
+}
+
+.pinkgradienthr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left:4px;
+  height: 4px;
+  width: 100%;
+  border: none;
+  background: linear-gradient(to right, #A6197D , #D81265); /* Standard syntax */
+}
+
+.superapproachable {
+  padding-top: 0px;
+  padding-bottom: 0px
+}
+
+.pink {
+  color: #D81265;
+  font-style:700
+}
+.tophr {
+  margin: 0px;
+  position: relative;
+  top: -4px;
+  border:0px
+}
+
+.smalldiv {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.reviews h3 {
+  margin-top: 0px;
+  padding-top: 0px
+}
+
+.gradientbutton {
+  background: linear-gradient(to right, #9E1A81 , #DC1263); /* Standard syntax */
+}
